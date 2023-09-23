@@ -22,9 +22,9 @@ npm i uuid
 /* uznane paczki do realizacji strategii autentykacji i autoryzacji (tutaj z tokenem JWT) */
 npm i @nestjs/passport passport passport-jwt
 
-/* paczka do parsowania cookies - dodane je do req.cookies*/
+/* paczka do parsowania cookies - dodaje je do req.cookies*/
 npm i cookie-parser
 
-/* dodanie typów TS do ww. paczek oraz typów do multera */
+/* dodanie typów TS do ww. paczek oraz typów do multera (wbudowany w nest.js) */
 npm i -D @types/cookie-parser @types/jsonwebtoken @types/multer @types/mime @types/passport-jwt @types/uuid
 ```
