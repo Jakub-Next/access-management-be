@@ -9,5 +9,9 @@ npx @nestjs/cli Access-Management-BE
 ```
 npm i jimp // paczka do przetwarzania plików graficznych
 npm i @nestjs/typeorm typeorm mysql2 // paczki do obsługi typeorm (orm) oraz connector mysql2 do pracy z bazą danych (w projekcie użyta baza mysql, a dokładniej jej odłam - mariadb)
+npm i zod // paczka zod służy do walidacji danych z użyciem TypeScript'u i Schema validation 
+npm i uuid // paczka uuid pozwala na łatwe generowanie unikalnych identyfikatorów, ciągów znaków z np. uuidv4
+npm i @nestjs/passport passport passport-jwt // uznane paczki do realizacji strategii autentykacji i autoryzacji (tutaj z tokenem JWT)
 
+npm i @types/jsonwebtoken @types/multer @types/mime @types/passport-jwt @types/uuid // dodanie typów TS do ww. paczek
 ```
