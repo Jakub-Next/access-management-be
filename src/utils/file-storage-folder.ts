@@ -3,5 +3,4 @@ import {FileStorageFolder} from "../shared/types/common/utlis/file-storage-folde
 
 export const fileStorageFolder = (folder: FileStorageFolder) => {
   return safeJoinPath('public/uploads', folder);
-  // return path.join(__dirname, '../../storage');
 };
